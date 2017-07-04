@@ -1,0 +1,9 @@
+<h2>
+  video-list
+</h2>
+
+<div *ngFor='let item of videoList'>
+	<a href="videos/{{ item.slug }}">{{ item.name }}</a>
+	
+	<iframe width="560" height="315" [src]='getEmbedUrl(item) | safe' frameborder="0" allowfullscreen></iframe>
+</div>
