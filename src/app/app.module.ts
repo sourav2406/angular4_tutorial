@@ -13,6 +13,7 @@ import { HomeComponent } from './home/home.component';
 import { SafePipe } from './utility/safe.pipe';
 import { VideoListComponent } from './video-list/video-list.component';
 import { VideoDetailComponent } from './video-detail/video-detail.component';
+import { SearchComponent } from './search/search.component';
 
 
 
@@ -22,7 +23,8 @@ import { VideoDetailComponent } from './video-detail/video-detail.component';
     VideoListComponent,
     VideoDetailComponent,
     SafePipe,
-    HomeComponent
+    HomeComponent,
+    SearchComponent
   ],
   imports: [
     BsDropdownModule.forRoot(),
